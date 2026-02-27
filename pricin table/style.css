@@ -1,0 +1,56 @@
+.pricing-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h1 {
+    margin: 15px 0;
+    color: #2a5298;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+}
+
+.card button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #2a5298;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #1e3c72;
+}
+
+.popular {
+    border: 3px solid #2a5298;
+}
